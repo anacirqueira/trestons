@@ -19,6 +19,12 @@
 
 */
 
+
+/*
+
+------------- Com if e else ----------
+
+
 let menu
 let items = []
 
@@ -51,5 +57,45 @@ while(items != 3) {
     alert("Programa encerrado.")
   }
 
+}
+
+*/
+
+// Com SWITCH 
+
+let menu
+let items = []
+
+while(items != 3) {
+
+  menu = Number(prompt(`
+  Olá usuário! Digite a opção desejada:
+  
+  1. Cadastrar um item na lista
+  2. Mostrar itens cadastrados
+  3. Sair do programa
+  `))
+
+switch(menu) {
+  case 1:
+    let item = prompt("Digite o nome do item")
+    items.push(item)
+    break;
+  
+  case 2:
+    if(items.length == 0){
+      alert("Não existe itens cadastrados")
+    } else {
+      alert(items)
+    }
+    break;
+  
+  case 3:
+    alert("Programa encerrado.")
+    break;
+  
+  default:
+    alert("Opção inválidade. Tente novamnte")
+}
 
 }
