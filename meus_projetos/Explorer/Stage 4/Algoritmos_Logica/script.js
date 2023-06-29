@@ -61,7 +61,7 @@ while(items != 3) {
 
 */
 
-// Com SWITCH 
+// ------------- Com SWITCH CASE ----------
 
 let menu
 let items = []
