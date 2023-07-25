@@ -16,8 +16,67 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
+
+  font-size: 1.6rem;
+  color: #34355B;
 }
+
+
 
 main {
   margin-bottom: 12rem;
+  background-color: #FFFF;
+  padding: 4.8rem 6.4rem;
+  
+  text-align: center;
+  
+  border-radius: .6rem;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1.4rem;
+  font-size: 2.4rem;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 2rem;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  outline: revert;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen2 p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.screen2 button {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  color: #FFFF;
+  border-radius: 4px;
+  background: #FF9500;
+
+  padding: 16px;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+.hide {
+  display: none;
 }
