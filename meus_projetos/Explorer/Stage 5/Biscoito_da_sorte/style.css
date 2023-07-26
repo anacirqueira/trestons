@@ -48,13 +48,13 @@ main {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 1.4rem;
+  margin-bottom: 3rem;
   font-size: 2.4rem;
 }
 
 p {
   font-family: 'DM Sans', sans-serif;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 button {
@@ -70,7 +70,7 @@ button {
 }
 
 .screen2 p {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', sans-serif;
   font-size: 2.4rem;
   color: #000;
 }
@@ -91,4 +91,13 @@ button:hover {
 
 .hide {
   display: none;
+}
+
+.text {
+  background: #E4EDF1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
