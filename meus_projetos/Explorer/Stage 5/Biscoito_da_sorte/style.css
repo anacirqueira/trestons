@@ -74,15 +74,14 @@ button {
   font-size: 2.4rem;
   color: #000;
 }
-
 .screen2 button {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   color: #FFFF;
-  border-radius: 4px;
+  border-radius: .4rem;
   background: #FF9500;
 
-  padding: 16px;
+  padding: 1.6rem;
 }
 
 button:hover {
