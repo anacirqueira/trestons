@@ -12,8 +12,8 @@
   font-size: 62.5%;
 }
 
-body, #universo {
-  background: url("./assets/mountains-universe.jpg") lightgray 50% / cover no-repeat fixed;
+body {
+  background: url("./assets/mountains-home.png") lightgray 50% / cover no-repeat fixed;
 
   font-family: 'Roboto', sans-serif;
   color: #ffff;
@@ -41,16 +41,19 @@ nav a:hover {
 
 main {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 2.4rem;
-  margin: auto;
+  margin: 6rem 10.2rem;
 }
 
-h1 {
+main h1 {
   font-size: 4.8rem;
   color: #fff;
+}
+
+main p {
+  font-size: 1.8rem;
 }
 
 button {
@@ -65,3 +68,18 @@ button {
   border: .2rem solid #FFF;
   background-color: transparent;
 }
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.6rem;
+
+  margin-top: 14rem;
+}
+
+.home h1 {
+  font-size: 4.8rem;
+}
+
