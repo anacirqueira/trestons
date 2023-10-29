@@ -1,3 +1,4 @@
+/*
 export class Router {
   routes = {}
 
@@ -25,3 +26,4 @@ export class Router {
     })
   }
 }
+*/
