@@ -153,7 +153,8 @@ section#inicio .flex {
 }
 
 #inicio h1 {
-  font-size: 4.2rem;
+  font-size: 4rem;
+  text-transform: uppercase;
 }
 
 #inicio h1 span {
